@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Signika+Negative&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link rel="icon" type="imagem/png" href="./future.png" />
+    <title>FUTURE Website - Formulário</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="./index.html" id="header__logo">
+          <i class="fa-solid fa-microchip"></i>FUTURE - Junte-se</a
+        >
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome de Usuário:</label>
+          <input type="text" id="username" placeholder="Digite seu usuário" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de Erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">E-mail:</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Escreva seu e-mail atualizado"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small>Mensagem de Erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" placeholder="Insira sua senha" />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <span class="lnr lnr-eye" id="eye1"></span>
+          <small>Mensagem de Erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação de Senha:</label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Corfirme sua senha"
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <span class="lnr lnr-eye" id="eye2"></span>
+          <small>Mensagem de Erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/d30b38ad14.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./form.js"></script>
+  </body>
+</html>

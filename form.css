@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Signika Negative", sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 195, 255) 0%,
+    rgb(183, 0, 255) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #141414;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px #423f3e;
+  width: 500px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.header {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+#header__logo {
+  background-image: linear-gradient(to top, #08e2ff 0%, #8077ff 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.form {
+  padding: 20px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  font-size: 20px;
+}
+.form-control label {
+  background-image: linear-gradient(to top, #08e2ff 0%, #8077ff 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  background-color: rgb(86, 110, 219);
+  border: solid 2px #f5f3f3;
+  display: block;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+}
+.form-control input::placeholder {
+  color: #000;
+}
+.form-control i {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  visibility: hidden;
+}
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+.form button {
+  background-color: #9f3ff8;
+  border: solid 2px #9f3ff8;
+  color: #000;
+  font-weight: bolder;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+}
+.form-control.success input {
+  border-color: #5be858;
+}
+.form-control.error input {
+  border-color: #a80e16;
+}
+.form-control.success i.fa-check-circle {
+  color: #5be858;
+  visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle {
+  color: #a80e16;
+  visibility: visible;
+}
+.form-control.error small {
+  color: #a80e16;
+  visibility: visible;
+}
+#eye1,
+#eye2 {
+  color: #9f3ff8;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
