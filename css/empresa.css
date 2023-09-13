@@ -4,6 +4,8 @@
   padding: 0;
   font-family: "Kumbh Sans", sans-serif;
 }
+
+/* Estilos para a barra de navegação */
 .navbar {
   background: #131313;
   height: 80px;
@@ -38,9 +40,6 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-}
-.fa-gem {
-  margin-right: 0.5rem;
 }
 .navbar__menu {
   display: flex;
@@ -173,7 +172,7 @@
   }
 }
 
-/* Hero Section CSS */
+/* Estilos para a seção principal (Hero Section) */
 .main {
   background-color: #141414;
 }
@@ -205,15 +204,18 @@
   font-size: 8rem;
   margin-top: 200px;
 }
+.text {
+  text-align: justify;
+  margin: 20px 0;
+}
 .text p {
+  font-size: 1.5rem;
+  text-align: justify;
   background-image: linear-gradient(to top, #08e2ff 0%, #8077ff 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  font-size: 1.5rem;
-  text-align: justify;
-  margin: 10px 15%;
 }
 .text h1 {
   text-align: center;
@@ -226,49 +228,26 @@
   padding-top: 50px;
 }
 
-/* Mobile Responsive */
+/* Estilos para telas menores (responsividade) */
 @media screen and (max-width: 768px) {
   .main__container {
-    display: grid;
-    grid-template-columns: auto;
-    align-items: center;
-    justify-self: center;
-    width: 100%;
-    height: 2500px;
+    height: auto;
+    padding: 40px 20px;
   }
   #future__logo {
-    background: #141414;
-    background-image: linear-gradient(to top, #08e2ff 0%, #8077ff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    text-decoration: none;
     font-size: 4rem;
-    padding-top: -1000px;
-    margin-top: -15px;
+    margin-top: 100px;
   }
-  .text {
-    margin-right: -10%;
-    margin-left: -10%;
-    font-size: 12px;
-    margin-top: -40px;
+  .text p {
+    font-size: 1.2rem;
+    margin: 10px 0;
   }
-  .footer__container {
-    background-color: #141414;
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .text h1 {
+    font-size: 1.5rem;
   }
 }
-/* Footer CSS */
+
+/* Estilos para o rodapé */
 .footer__container {
   margin-top: -50px;
   background-color: #141414;
@@ -343,7 +322,7 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  -moz-text-fill_color: transparent;
 }
 .footer__logo {
   color: #fff;
