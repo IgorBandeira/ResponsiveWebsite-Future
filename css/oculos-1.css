@@ -130,8 +130,10 @@ img {
   border-radius: 4px;
   background-image: linear-gradient(to top, #ff77e8 0%, #d608ff 100%);
   position: absolute;
-  top: 400px;
-  left: 880px;
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: 20px auto;
   font-size: 1rem;
   cursor: pointer;
 }
